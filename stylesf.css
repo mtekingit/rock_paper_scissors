@@ -1,0 +1,92 @@
+html {
+	background-color: #F3F9D0
+}
+
+body {
+	text-align: center;
+	justify-content: center;
+	
+}
+
+header {
+	background-color: #E6D4C8;
+	height: 105px;
+	
+	
+}
+
+header>h1 {
+	font-size: 45px;
+	padding-top: 25px;
+	font-family: garamond;
+	
+}
+
+
+#scoreBoard {
+	
+	margin: auto;
+	width: 400px;
+	background-color: #723629;
+	justify-content: center;
+	color: #EBF5AF;
+}
+
+
+#gameButtonsDiv {
+	
+	padding: 10px;
+	width: 300px;
+	margin: auto;
+	border: 6px solid;
+	background-color: #AF0519;
+
+}
+
+
+.buttons {
+	width: 90px;
+	height: 60px;
+	font-weight: bold;
+	font-style: italic;
+	border: 6px solid;
+	padding: 3px;
+	background-color: #EFD403;
+	
+} 
+
+
+#refreshButtonDiv {
+
+}
+
+
+
+#refreshButton {
+	width: 90px;
+	height: 60px;
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+	border: 6px solid;
+	border-color: black;
+	padding: 3px;
+	background-color: #EFD403;
+	animation-name: buttonAnimation;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	
+}
+
+@keyframes buttonAnimation {
+	0% {background-color: #EFD403; border-color: black;
+		color: black;}
+	100% {background-color: black; border-color: #EFD403;
+		color: #EFD403;}
+}
+
+
+.hidden {
+    visibility: hidden;
+}
+
